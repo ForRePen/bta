@@ -44,6 +44,9 @@ Dependencies:
 
   + https://bitbucket.org/iwseclabs/bta/downloads/libesedb-alpha-20120102.tar.gz SHA-1 ``2aba34b1c9703a28b8913019044efa3ff53428fb``
   + Build it. Install it or have ``LD_LIBRARY_PATH`` point to it when using ``btaimport``  
+  + CFLAGS="-g -O2 -Wall -fgnu89-inline" ./configure --enable-static-executables
+  + make
+  + make install
 
 Installation:
 
@@ -60,6 +63,9 @@ Dependencies:
 
   + https://bitbucket.org/iwseclabs/bta/downloads/libesedb-alpha-20120102.tar.gz SHA-1 ``2aba34b1c9703a28b8913019044efa3ff53428fb``
   + Build it. Install it or have ``LD_LIBRARY_PATH`` point to it when using ``btaimport``  
+  + CFLAGS="-g -O2 -Wall -fgnu89-inline" ./configure --enable-static-executables
+  + make
+  + make install
 
 * openpyxl (>= 2.0.2)
 
